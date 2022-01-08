@@ -54,14 +54,14 @@ Requisitos não-funcionais:
 
 - Exemplos de conteúdo Json (application/json)
     - Servidor
-        ■ { "id": "{00A077F6-6ACF-41AF-942A-501BE8FB80F8}", "name":
+        - { "id": "{00A077F6-6ACF-41AF-942A-501BE8FB80F8}", "name":
 "Servidor 1", "ip": "127.0.0.1", "port": 8080 }
     - Vídeo (informações básicas)
-        ■ { "id": "{11A077F6-6ACF-41AF-942A-501BE8FB80B8}",
+        - { "id": "{11A077F6-6ACF-41AF-942A-501BE8FB80B8}",
 "description": "Vídeo 1", "sizeInBytes": 291923 }
     - Reciclagem (status de processamento)
-        ■ { "status": "running" }
-        ■ { "status": "not running" }
+        - { "status": "running" }
+        - { "status": "not running" }
 
 É importante que você entregue 100% da aplicação, pois ela será para avaliar aspectos diferentes (CRUD,
 manipulação de arquivos e streams, threads, entre outros). Entretanto, vamos levar em consideração a
