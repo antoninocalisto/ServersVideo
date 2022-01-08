@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anton\\source\\repos\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj": {}
+    "C:\\Users\\anton\\Documents\\Antonino\\Pessoal\\github\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anton\\source\\repos\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj": {
+    "C:\\Users\\anton\\Documents\\Antonino\\Pessoal\\github\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anton\\source\\repos\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Documents\\Antonino\\Pessoal\\github\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj",
         "projectName": "ServersVideo.API",
-        "projectPath": "C:\\Users\\anton\\source\\repos\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj",
+        "projectPath": "C:\\Users\\anton\\Documents\\Antonino\\Pessoal\\github\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anton\\source\\repos\\ServersVideo\\ServersVideo.API\\obj\\",
+        "outputPath": "C:\\Users\\anton\\Documents\\Antonino\\Pessoal\\github\\ServersVideo\\ServersVideo.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WuplpUM2YA7Z6aL2IccI03EP3DNwbSsO+1IRLfsbZ36vAHs6B3iqBGhRJ0MbL7CZBdzfoLSvOI756UaxgyPiWQ==",
+  "dgSpecHash": "1PjgZvGF/JIMIoyVsau7r71dc/MCv93zAv7Ex+MtcQ57LwY1sYCBi96oRv4CIA5fqJMwISs30StWIeKmmfhAiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anton\\source\\repos\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj",
+  "projectFilePath": "C:\\Users\\anton\\Documents\\Antonino\\Pessoal\\github\\ServersVideo\\ServersVideo.API\\ServersVideo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

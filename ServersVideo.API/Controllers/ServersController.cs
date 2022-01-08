@@ -37,12 +37,12 @@ namespace ServersVideo.API.Controllers
 
             //Cadastrar o servidor
 
-            return CreatedAtAction(nameof(GetById), new { id = createServer.Id }, createServer);
+            return CreatedAtAction(nameof(GetById), new { serverId = createServer.Id }, createServer);
 
         }
 
         [HttpPut("{serverId}")]
-        public IActionResult Put(int serverId, [FromBody] UpdateServer updateServer)
+        public IActionResult Put(Guid serverId, [FromBody] UpdateServer updateServer)
         {
             if (updateServer.Nome.Length > 300)
             {
@@ -60,7 +60,7 @@ namespace ServersVideo.API.Controllers
         }
 
         [HttpDelete("{serverId}")]
-        public IActionResult Delete(int serverId) 
+        public IActionResult Delete(Guid serverId) 
         {
             // Buscar, se não existe, retorna NotFound
 
