@@ -1,4 +1,4 @@
-# ServersVideo
+# ServersVideo - DESENVOLVIMENTO BACK-END - API REST em c# e .NET Core
 
 Requisitos funcionais:
 - Criar um novo servidor
