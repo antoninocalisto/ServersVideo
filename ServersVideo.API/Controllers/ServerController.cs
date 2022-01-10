@@ -10,11 +10,17 @@ namespace ServersVideo.API.Controllers
     [Route("api/server")]
     public class ServerController: ControllerBase
     {
-      
+
+        [HttpGet("{serverId}")]
+        public IActionResult GetById(Guid serverId)
+        {
+            return Ok();
+        }
+
         [HttpPost]
         public IActionResult Post([FromBody] CreateServerModel createServer)
         {
-            ServersController serversController = new();
+            //ServersController serversController = new();
 
             if (createServer.PortaIp > 5000)
             {
@@ -23,7 +29,7 @@ namespace ServersVideo.API.Controllers
 
             //Cadastrar o servidor
 
-            return CreatedAtAction(nameof(serversController.GetById), new { serverId = createServer.Id }, createServer);
+            return CreatedAtAction(nameof(GetById), new { serverId = createServer.Id }, createServer);
 
         }
     }
