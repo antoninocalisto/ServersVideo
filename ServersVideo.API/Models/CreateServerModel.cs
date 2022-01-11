@@ -15,4 +15,9 @@ namespace ServersVideo.API.Models
 
         public int PortaIp { get; set; }
     }
+
+    public class GitJSON
+    {
+        public List<CreateServerModel> gitdList { set; get; }
+    }
 }

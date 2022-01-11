@@ -14,9 +14,14 @@ namespace ServersVideo.API.Controllers
         //Criar um novo servidor
         //api/servers
         [HttpPost]
-        public IActionResult Post([FromBody] CreateServerModel createServer)
+        //public IActionResult Post([FromBody] CreateServerModel createServer)
+         public async Task<IActionResult> Post([FromBody] CreateServerModel createServer)
         {
 
+            if (string.IsNullOrWhiteSpace(createServer.EnderecoIP) || string.IsNullOrWhiteSpace(createServer.PortaIp.ToString()))
+            {
+                return BadRequest();
+            }
             if (createServer.PortaIp > 5000)
             {
                 return BadRequest();
